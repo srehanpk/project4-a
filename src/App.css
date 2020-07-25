@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+.bg {
+
+    background-color: rgb(240, 223, 178); 
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;   
+}
+.cloud1 {
+
+    width: 150px;
+    position: absolute;
+	top: 10%;
+	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cloud2 {
+
+    width: 100px;
+    position: absolute;
+	top: 25%;
+}
+.cloud3 {
+
+    width: 200px;
+    position: absolute;
+	top: 0%;
+	
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.dog  {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    position: absolute;
+    bottom: 0px;
+    height: 70px;
+    width: 150px; 
+    
+    }
+  
+    .cat {
+        height: 30px;
+        position: absolute;
+        bottom: 0px; 
+        margin-left: 20%;
+    }
+   
+    .ground {
 
-.App-link {
-  color: #61dafb;
-}
+        position: absolute;
+        bottom: 0%;
+        height: 20px;
+        width: 100vw;
+    }
+    .bird1 {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+        height: 30px;
+       padding-top: 50px;
+    }
+    .bird2 {
+
+        height: 30px;
+    }
+    .bird3 {
+
+        height: 30px;
+        top: 10%;
+    }
+    .bird4 {
+
+        height: 20px;
+       padding-top: 50px;
+    }
+    .man1 {
+        position: absolute;
+        height: 150px;
+       padding-top: 17%;
+        
+        
+        
+    }
+    .man2 {
+        position: absolute;
+        padding-top: 11%;
+        height: 140px;
+    }
