@@ -10,7 +10,7 @@ const Dog = () => {
         keyframes: [
 
             { transform: "translatex(0px)"},
-            {transform: "translatex(800px)"},
+            {transform: "translatex(750px)"},
             
         ],
           

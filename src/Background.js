@@ -17,7 +17,7 @@ const Background = () => {
         <div className="bg">
 
         <Sky />
-        <img src="./ground.jpeg" className="ground" alt="ground" />
+       
         
         <Man2 />
         <Man1 />
