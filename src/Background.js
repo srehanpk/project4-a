@@ -4,6 +4,7 @@ import Dog from './Dog';
 import Cat from './Cat';
 import Man1 from './Man1';
 import Man2 from './Man2';
+import Man3 from './Man3';
 
 
 
@@ -22,6 +23,7 @@ const Background = () => {
         
         <Man2 />
         <Man1 />
+        <Man3 />
         
         
         <Dog />

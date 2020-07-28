@@ -9,8 +9,8 @@ const Man2 = () => {
 
         keyframes: [
 
-            { transform: "translatex(0px)"},
-			{transform: "translatex(900px)"},
+            { transform: "translatex(-100%)"},
+			{transform: "translatex(1100%)"},
                 ],
           
                 timing: {

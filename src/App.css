@@ -75,6 +75,11 @@
     }
     .man2 {
         position: absolute;
-        height: 140px;
-        margin-top: 265px;
+        height: 120px;
+        margin-top: 195px;
+    }
+    .man3 {
+        position: absolute;
+        height: 160px;
+        margin-top: 155px;
     }
