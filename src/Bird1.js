@@ -9,8 +9,8 @@ const Bird1 = () => {
 
         keyframes: [
 
-            { transform: "translatex(0px)"},
-			{transform: "translatex(900px)"},
+            { transform: "translatex(-100%)"},
+			{transform: "translatex(2500%)"},
                 ],
           
                 timing: {

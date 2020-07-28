@@ -15,7 +15,7 @@ const Cloud3 = () => {
           
                 timing: {
                     
-                      duration: 260000,
+                      duration: 200000,
                         iterations: Infinity,	
                          direction: "reverse",	
                         //easing: "ease-in-out",

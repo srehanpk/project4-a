@@ -19,12 +19,15 @@ const Background = () => {
         <Sky />
        
         
+        
         <Man2 />
         <Man1 />
+        
         
         <Dog />
         <Cat />
         
+
         
         </div>
     );

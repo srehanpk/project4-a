@@ -9,13 +9,13 @@ const Man1 = () => {
 
         keyframes: [
 
-            { transform: "translatex(0px)"},
-			{transform: "translatex(900px)"},
+            { transform: "translate(-100%)"},
+			{transform: "translate(400%)"},
                 ],
           
                 timing: {
                     
-                      duration: 7000,
+                      duration: 8000,
                         iterations: Infinity,	
                          direction: "reverse",	
                         //easing: "ease-in-out",
