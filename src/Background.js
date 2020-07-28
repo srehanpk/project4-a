@@ -22,8 +22,8 @@ const Background = () => {
         
         
         <Man2 />
-        <Man1 />
         <Man3 />
+        <Man1 />
         
         
         <Dog />
