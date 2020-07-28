@@ -31,16 +31,18 @@
 
 
 .dog  {
-    
+    position: absolute;
     height: 70px;
-    margin-top: 320px;
+    margin-top: 360px;
     
     
     }
   
     .cat {
+        position: absolute;
         height: 30px;
-       
+        margin-top: 400px;
+        margin-left: 20px;
         
     }
    
