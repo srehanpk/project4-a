@@ -3,9 +3,10 @@
     background-color: rgb(240, 223, 178); 
     background-image: url("background2.jpg");
     background-size: cover;
-    max-width: 100vw;
+    background-position: center;
+    /* max-width: 100%; */
     height: 700px; 
-    justify-content: center;  
+     
 }
 .cloud1 {
 
