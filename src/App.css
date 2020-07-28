@@ -4,7 +4,7 @@
     background-image: url("background2.jpg");
     background-size: cover;
     background-position: center;
-    /* max-width: 100%; */
+    min-width:  1000px;
     height: 700px; 
      
 }
