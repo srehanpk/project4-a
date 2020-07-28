@@ -3,22 +3,22 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 
-const Cat = () => {
+
+const Cloud2 = () => {
 
     const { ref } = useWebAnimations({
 
         keyframes: [
 
             { transform: "translatex(0px)" },
-            { transform: "translatex(850px)" },
-
+            { transform: "translatex(700px)" },
         ],
 
         timing: {
 
-            duration: 4000,
+            duration: 160000,
             iterations: Infinity,
-            //  direction: "reverse",	
+            direction: "reverse",
             //easing: "ease-in-out",
 
 
@@ -27,12 +27,11 @@ const Cat = () => {
 
     return (
 
-        <div className="cat-div">
+        <div className="sky">
 
+            <img ref={ref} src="./Images/cloud1.png" className="cloud2" alt="cloud2" />
 
-            <img ref={ref} src="./cat.gif" className="cat" alt="cat" />
         </div>
-
     );
 
 
@@ -41,4 +40,4 @@ const Cat = () => {
 }
 
 
-export default Cat;
+export default Cloud2;

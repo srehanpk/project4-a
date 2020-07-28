@@ -17,6 +17,8 @@ const Background = () => {
 
         <div className="bg">
 
+        
+
             <Sky />
 
 

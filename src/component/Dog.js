@@ -3,21 +3,22 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 
-const Cloud2 = () => {
+const Dog = () => {
 
     const { ref } = useWebAnimations({
 
         keyframes: [
 
-            { transform: "translatex(-100%)" },
-            { transform: "translatex(800px)" },
+            { transform: "translatex(0px)" },
+            { transform: "translatex(600%)" },
+
         ],
 
         timing: {
 
-            duration: 160000,
+            duration: 4000,
             iterations: Infinity,
-            direction: "reverse",
+            //  direction: "reverse",	
             //easing: "ease-in-out",
 
 
@@ -26,11 +27,12 @@ const Cloud2 = () => {
 
     return (
 
-        <div className="sky">
+        <div className="dog-div">
 
-            <img ref={ref} src="./cloud1.png" className="cloud2" alt="cloud2" />
+            <img ref={ref} src="./Images/dog.gif" className="dog" alt="dog" />
 
         </div>
+
     );
 
 
@@ -39,4 +41,4 @@ const Cloud2 = () => {
 }
 
 
-export default Cloud2;
+export default Dog;

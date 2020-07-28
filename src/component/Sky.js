@@ -16,6 +16,7 @@ const Sky = () => {
     return (
 
         <div className="sky">
+        
             <Bird3 />
             <Bird1 />
             <Cloud1 />
@@ -23,7 +24,6 @@ const Sky = () => {
             <Cloud3 />
             <Bird2 />
             <Bird4 />
-
 
         </div>
     );

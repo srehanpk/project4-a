@@ -3,21 +3,23 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 
-const Man3 = () => {
+
+const Cat = () => {
 
     const { ref } = useWebAnimations({
 
         keyframes: [
 
-            { transform: "translatex(-100%)" },
-            { transform: "translatex(900%)" },
+            { transform: "translatex(0px)" },
+            { transform: "translatex(800px)" },
+
         ],
 
         timing: {
 
-            duration: 11000,
+            duration: 4000,
             iterations: Infinity,
-            direction: "reverse",
+            //  direction: "reverse",	
             //easing: "ease-in-out",
 
 
@@ -26,11 +28,12 @@ const Man3 = () => {
 
     return (
 
-        <div className="sky">
+        <div className="cat-div">
 
-            <img ref={ref} src="./man3.gif" className="man3" alt="man3" />
 
+            <img ref={ref} src="./Images/cat.gif" className="cat" alt="cat" />
         </div>
+
     );
 
 
@@ -39,4 +42,4 @@ const Man3 = () => {
 }
 
 
-export default Man3;
+export default Cat;

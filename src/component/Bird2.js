@@ -3,19 +3,19 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 
-const Man1 = () => {
+const Bird2 = () => {
 
     const { ref } = useWebAnimations({
 
         keyframes: [
 
-            { transform: "translate(-100%)" },
-            { transform: "translate(500%)" },
+            { transform: "translatex(0px)" },
+            { transform: "translatex(2000%)" },
         ],
 
         timing: {
 
-            duration: 8000,
+            duration: 10000,
             iterations: Infinity,
             direction: "reverse",
             //easing: "ease-in-out",
@@ -28,7 +28,7 @@ const Man1 = () => {
 
         <div className="sky">
 
-            <img ref={ref} src="./man1.gif" className="man1" alt="man1" />
+            <img ref={ref} src="./Images/bird2.gif" className="bird2" alt="bird2" />
 
         </div>
     );
@@ -39,4 +39,4 @@ const Man1 = () => {
 }
 
 
-export default Man1;
+export default Bird2;

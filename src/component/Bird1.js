@@ -3,21 +3,21 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 
 
-const Cloud3 = () => {
+const Bird1 = () => {
 
     const { ref } = useWebAnimations({
 
         keyframes: [
 
-            { transform: "translatex(-100%)" },
-            { transform: "translatex(800px)" },
+            { transform: "translatex(0px)" },
+            { transform: "translatex(2500%)" },
         ],
 
         timing: {
 
-            duration: 200000,
+            duration: 9000,
             iterations: Infinity,
-            direction: "reverse",
+            direction: "normal",
             //easing: "ease-in-out",
 
 
@@ -28,7 +28,7 @@ const Cloud3 = () => {
 
         <div className="sky">
 
-            <img ref={ref} src="./cloud2.png" className="cloud3" alt="cloud3" />
+            <img ref={ref} src="./Images/bird1.gif" className="bird1" alt="bird1" />
 
         </div>
     );
@@ -39,4 +39,4 @@ const Cloud3 = () => {
 }
 
 
-export default Cloud3;
+export default Bird1;
