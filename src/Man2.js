@@ -10,7 +10,7 @@ const Man2 = () => {
         keyframes: [
 
             { transform: "translatex(-100%)"},
-			{transform: "translatex(1100%)"},
+			{transform: "translatex(1000%)"},
                 ],
           
                 timing: {
