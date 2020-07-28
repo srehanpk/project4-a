@@ -7,16 +7,16 @@ import Background from './Background';
 
 function App() {
 
-  
- 
-   
+
+
+
 
   return (
     <div >
-    <Background />
+      <Background />
 
     </div>
-      
+
   );
 }
 

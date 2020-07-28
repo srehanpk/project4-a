@@ -9,27 +9,27 @@ const Bird2 = () => {
 
         keyframes: [
 
-            { transform: "translatex(-100%)"},
-			{transform: "translatex(2000%)"},
-                ],
-          
-                timing: {
-                    
-                      duration: 10000,
-                        iterations: Infinity,	
-                         direction: "reverse",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+            { transform: "translatex(-100%)" },
+            { transform: "translatex(2000%)" },
+        ],
+
+        timing: {
+
+            duration: 10000,
+            iterations: Infinity,
+            direction: "reverse",
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="sky">
 
-        <img ref={ref} src="./bird2.gif" className="bird2" alt="bird2" />
-        
+            <img ref={ref} src="./bird2.gif" className="bird2" alt="bird2" />
+
         </div>
     );
 

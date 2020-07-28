@@ -9,27 +9,27 @@ const Man2 = () => {
 
         keyframes: [
 
-            { transform: "translatex(-100%)"},
-			{transform: "translatex(1000%)"},
-                ],
-          
-                timing: {
-                    
-                      duration: 11000,
-                        iterations: Infinity,	
-                         direction: "normal",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+            { transform: "translatex(-100%)" },
+            { transform: "translatex(1000%)" },
+        ],
+
+        timing: {
+
+            duration: 11000,
+            iterations: Infinity,
+            direction: "normal",
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="sky">
 
-        <img ref={ref} src="./man2.gif" className="man2" alt="man2" />
-        
+            <img ref={ref} src="./man2.gif" className="man2" alt="man2" />
+
         </div>
     );
 

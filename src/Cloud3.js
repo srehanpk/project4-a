@@ -9,27 +9,27 @@ const Cloud3 = () => {
 
         keyframes: [
 
-            { transform: "translatex(-100%)"},
-			{transform: "translatex(800px)"},
-                ],
-          
-                timing: {
-                    
-                      duration: 200000,
-                        iterations: Infinity,	
-                         direction: "reverse",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+            { transform: "translatex(-100%)" },
+            { transform: "translatex(800px)" },
+        ],
+
+        timing: {
+
+            duration: 200000,
+            iterations: Infinity,
+            direction: "reverse",
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="sky">
 
-        <img ref={ref} src="./cloud2.png" className="cloud3" alt="cloud3"/>
-        
+            <img ref={ref} src="./cloud2.png" className="cloud3" alt="cloud3" />
+
         </div>
     );
 

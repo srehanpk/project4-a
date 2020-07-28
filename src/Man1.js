@@ -9,27 +9,27 @@ const Man1 = () => {
 
         keyframes: [
 
-            { transform: "translate(-100%)"},
-			{transform: "translate(500%)"},
-                ],
-          
-                timing: {
-                    
-                      duration: 8000,
-                        iterations: Infinity,	
-                         direction: "reverse",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+            { transform: "translate(-100%)" },
+            { transform: "translate(500%)" },
+        ],
+
+        timing: {
+
+            duration: 8000,
+            iterations: Infinity,
+            direction: "reverse",
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="sky">
 
-        <img ref={ref} src="./man1.gif" className="man1" alt="man1" />
-        
+            <img ref={ref} src="./man1.gif" className="man1" alt="man1" />
+
         </div>
     );
 

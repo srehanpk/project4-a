@@ -1,86 +1,68 @@
 .bg {
-
-    background-color: rgb(240, 223, 178); 
-    background-image: url("background2.jpg");
-    background-size: cover;
-    background-position: center;
-    min-width:  1000px;
-    min-height: 700px; 
-     
+  background-color: rgb(240, 223, 178);
+  background-image: url("background2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 1000px;
+  min-height: 700px;
 }
 .cloud1 {
-
-    width: 150px;
-    position: absolute;
-	top: 10%;
-	
+  width: 150px;
+  position: absolute;
+  top: 10%;
 }
 
 .cloud2 {
-
-    width: 100px;
-    position: absolute;
-	top: 25%;
+  width: 100px;
+  position: absolute;
+  top: 25%;
 }
 .cloud3 {
-
-    width: 200px;
-    position: absolute;
-	top: 0%;
-	
+  width: 200px;
+  position: absolute;
+  top: 0%;
 }
 
+.dog {
+  position: absolute;
+  height: 70px;
+  margin-top: 360px;
+}
 
-.dog  {
-    position: absolute;
-    height: 70px;
-    margin-top: 360px;
-    
-    
-    }
-  
-    .cat {
-        position: absolute;
-        height: 30px;
-        margin-top: 400px;
-        margin-left: 20px;
-        
-    }
-   
-    .bird1 {
+.cat {
+  position: absolute;
+  height: 30px;
+  margin-top: 400px;
+  margin-left: 20px;
+}
 
-        height: 30px;
-       padding-top: 50px;
-    }
-    .bird2 {
-
-        height: 30px;
-    }
-    .bird3 {
-
-        height: 30px;
-        margin-top: 30px;
-    }
-    .bird4 {
-
-        height: 20px;
-       padding-top: 50px;
-    }
-    .man1 {
-        position: absolute;
-        height: 150px;
-       margin-top: 270px;
-        
-        
-        
-    }
-    .man2 {
-        position: absolute;
-        height: 120px;
-        margin-top: 195px;
-    }
-    .man3 {
-        position: absolute;
-        height: 160px;
-        margin-top: 155px;
-    }
+.bird1 {
+  height: 30px;
+  padding-top: 50px;
+}
+.bird2 {
+  height: 30px;
+}
+.bird3 {
+  height: 30px;
+  margin-top: 30px;
+}
+.bird4 {
+  height: 20px;
+  padding-top: 50px;
+}
+.man1 {
+  position: absolute;
+  height: 150px;
+  margin-top: 270px;
+}
+.man2 {
+  position: absolute;
+  height: 120px;
+  margin-top: 195px;
+}
+.man3 {
+  position: absolute;
+  height: 160px;
+  margin-top: 155px;
+}

@@ -9,30 +9,30 @@ const Cat = () => {
 
         keyframes: [
 
-            { transform: "translatex(0px)"},
-            {transform: "translatex(850px)"},
-            
+            { transform: "translatex(0px)" },
+            { transform: "translatex(850px)" },
+
         ],
-          
-                timing: {
-                    
-                      duration: 4000,
-                        iterations: Infinity,	
-                        //  direction: "reverse",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+
+        timing: {
+
+            duration: 4000,
+            iterations: Infinity,
+            //  direction: "reverse",	
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="cat-div">
-        
-       
-        <img ref={ref} src="./cat.gif" className="cat" alt="cat" />
+
+
+            <img ref={ref} src="./cat.gif" className="cat" alt="cat" />
         </div>
-        
+
     );
 
 

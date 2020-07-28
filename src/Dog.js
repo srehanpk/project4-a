@@ -9,30 +9,30 @@ const Dog = () => {
 
         keyframes: [
 
-            { transform: "translatex(0px)"},
-            {transform: "translatex(750px)"},
-            
+            { transform: "translatex(0px)" },
+            { transform: "translatex(750px)" },
+
         ],
-          
-                timing: {
-                    
-                      duration: 4000,
-                        iterations: Infinity,	
-                        //  direction: "reverse",	
-                        //easing: "ease-in-out",
-                        
-                  
-                }
+
+        timing: {
+
+            duration: 4000,
+            iterations: Infinity,
+            //  direction: "reverse",	
+            //easing: "ease-in-out",
+
+
+        }
     });
 
     return (
 
         <div className="dog-div">
-        
-        <img ref={ref} src="./dog.gif" className="dog" alt="dog"/>
-        
+
+            <img ref={ref} src="./dog.gif" className="dog" alt="dog" />
+
         </div>
-        
+
     );
 
 

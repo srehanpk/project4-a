@@ -17,20 +17,20 @@ const Background = () => {
 
         <div className="bg">
 
-        <Sky />
-       
-        
-        
-        <Man2 />
-        <Man3 />
-        <Man1 />
-        
-        
-        <Dog />
-        <Cat />
-        
+            <Sky />
 
-        
+
+
+            <Man2 />
+            <Man3 />
+            <Man1 />
+
+
+            <Dog />
+            <Cat />
+
+
+
         </div>
     );
 
